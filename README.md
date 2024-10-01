@@ -1,36 +1,25 @@
-# Boilerplate: Fullstack with Sass
+# DonateMate 💚
+DonateMate is a full stack web application created for our final group project at Dev Academy. 
 
-## Setup
+It streamlines the donation process, connecting donors with charities and organisations that need them the most. Donors are able to search for organisations, filter by donation type and find who needs their donation the most.
+Organisations are able to create, edit and manage profiles that keep donors up to date with the status of their needs. DonateMate provides a platform that can help minimise waste while supporting community efforts and connection.
 
-### What's included
+Have a look at DonateMate live [here](https://donatemate.pushed.nz/)!
 
-This repo includes:
+## Features ✨
+- User Authentication: Secure user login for organisations using Auth0 for authentication and authorisation.
+- Google Maps Integration: Donors can see organisation's locations on a map.
+- Donation Management: Organisations are able to categorise and manage donations through an easy-to-use UI.
+- Profile Management: Organisations are able to add, edit and manage thier profilem, alongside the workers attached to it. They can share urgent needs and up-to-date infomation on how and when to donate. 
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* frontend routing via react-router
-* an auth0 setup waiting to be configured
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing css with tailwind support
 
-### Installation
+## Tech Stack 🖥️
+- Frontend: React, TailwindCSS for UI components, React Router for navigation
+- Backend: Node.js, Express for server-side logic, Knex for database management
+- Database: SQLite3 via Knex
+- Authentication: Auth0 for user login and secure access control
+- Maps API: Google Maps API for location services
+- Testing: Vitest and Testing Library for unit and integration tests
 
-#### **From the Github UI**
 
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
 
-#### **From the command line**
-
-```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
-
----
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)
