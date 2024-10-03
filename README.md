@@ -15,7 +15,6 @@ Have a look at DonateMate live [here](https://donatemate.pushed.nz/)!
 As product owner, I led the collaboration of the design, planning and presentation of DonateMate. I created wireframes, user stories, defined the MVP and refined scope. I managed the Kanban board by creating and allocating tickets, as well as supporting my team through pair programming.
 My technical contribution included wokring with Auth0, integrating Maps API, filtering by donation type, and contributing a vertical slice of the organisation profile page to the database including routing and database connections. I participated in the CSS and tailwind, making sure the UI was WAVE accessible and cohesive. 
 
-
 ## Tech Stack 🖥️
 - Frontend: React, TailwindCSS for UI components, React Router for navigation
 - Backend: Node.js, Express for server-side logic, Knex for database management
@@ -28,5 +27,20 @@ My technical contribution included wokring with Auth0, integrating Maps API, fil
 - Increase testing coverage
 - Introduce financial donation functionality
 
+### Setup
 
+To get started with the project, follow these instructions:
 
+#### **From the GitHub UI**
+
+See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use GitHub's feature to create a new repo from a template.
+
+#### **From the command line**
+
+```bash
+git clone https://github.com/[your-username]/donate-mate 
+cd donate-mate
+npm install # to install dependencies
+npm run dev # to start the dev server
+```
+You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
