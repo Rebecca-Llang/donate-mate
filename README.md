@@ -23,11 +23,11 @@ My technical contribution included wokring with Auth0, integrating Maps API, fil
 - Maps API: Google Maps API for location services
 - Testing: Vitest and Testing Library for unit and integration tests
 
-## Future Plans
+## Future Plans 🚀
 - Increase testing coverage
 - Introduce financial donation functionality
 
-### Setup
+## Setup ✅
 
 To get started with the project, follow these instructions:
 
