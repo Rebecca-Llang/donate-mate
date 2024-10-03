@@ -11,7 +11,7 @@ Have a look at DonateMate live [here](https://donatemate.pushed.nz/)!
 - Donation Management: Organisations can categorise and manage donations through an easy-to-use UI.
 - Profile Management: Organisations are able to add, edit and manage their profiles, as well as the workers attached to them. They can share and update urgent needs with up-to-date infomation on how and when to donate.
 
-## My contribution
+## My contribution 💃
 As product owner, I led the collaboration of the design, planning and presentation of DonateMate. I created wireframes, user stories, defined the MVP and refined scope. I managed the Kanban board by creating and allocating tickets, as well as supporting my team through pair programming.
 My technical contribution included wokring with Auth0, integrating Maps API, filtering by donation type, and contributing a vertical slice of the organisation profile page to the database including routing and database connections. I participated in the CSS and tailwind, making sure the UI was WAVE accessible and cohesive. 
 
